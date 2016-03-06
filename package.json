@@ -27,7 +27,7 @@
     "tap": "^5.7.0"
   },
   "peerDependencies": {
-    "react-native": ">=0.5"
+    "react-native-cli": ">=0.1.10"
   },
   "repository": {
     "type": "git",
