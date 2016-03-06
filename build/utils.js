@@ -46,7 +46,7 @@ var Utils = (function () {
       var indentation = prettyPrint ? 4 : 0;
       var wstream = _fs2["default"].createWriteStream(outputFile);
       var output = JSON.stringify(style, null, indentation);
-      wstream.write("module.exports = require('react-native').StyleSheet.create(" + output + ");");
+      wstream.write("module.exports = require('react-native-extended-stylesheet').EStyleSheet.create(" + output + ");");
       wstream.end();
       return output;
     }

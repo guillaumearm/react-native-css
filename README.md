@@ -1,13 +1,21 @@
-# react-native-css (and SCSS) [![Circle CI](https://circleci.com/gh/sabeurthabti/react-native-css.svg?style=svg&circle-token=a140907997e6a37c6c5ec75f04e8150cef049ff6)](https://circleci.com/gh/sabeurthabti/react-native-css) [![NPM](https://img.shields.io/npm/dm/react-native-css.svg?style=flat-square)](https://www.npmjs.com/package/react-native-css)
+# react-native-css (and SCSS) + react-native-extended-stylesheet [![Circle CI](https://circleci.com/gh/sabeurthabti/react-native-css.svg?style=svg&circle-token=a140907997e6a37c6c5ec75f04e8150cef049ff6)](https://circleci.com/gh/sabeurthabti/react-native-css) [![NPM](https://img.shields.io/npm/dm/react-native-css.svg?style=flat-square)](https://www.npmjs.com/package/react-native-css)
 
  React-native-css turns valid CSS/SASS into the Facebook subset of CSS.
 
+ This is a forked version, it seems to be work fine with [react-native-extended-stylesheet](https://github.com/vitalets/react-native-extended-stylesheet)
+
 ## Install
 
-Global
+Global :
 
 ```bash
-npm install react-native-css -g
+npm install guillaumearm/react-native-css -g
+```
+
+Requirements for your react-native project :
+
+```bash
+npm install --save react-native-extended-stylesheet
 ```
 
 # Command Line Interface
