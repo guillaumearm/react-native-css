@@ -24,7 +24,7 @@ export default class Utils {
     var indentation = prettyPrint ? 4 : 0;
     var wstream = fs.createWriteStream(outputFile);
     var output = JSON.stringify(style, null, indentation);
-    wstream.write(`module.exports = require('react-native').StyleSheet.create(${output});`);
+    wstream.write(`import EStyleSheet from 'react-native-extended-stylesheet' ; export default StyleSheet.create(${output});`);
     wstream.end();
     return output;
   }
